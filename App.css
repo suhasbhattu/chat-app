@@ -1,0 +1,18 @@
+.App-header {
+  height: 50px;
+  background-color: #0067b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header-text {
+  margin: 0;
+  color: #fff;
+}
+
+.App-content {
+  display: grid;
+  margin: 10px;
+  grid-template-columns: repeat(2, 50%);
+}

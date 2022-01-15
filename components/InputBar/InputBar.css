@@ -1,0 +1,35 @@
+.InputBar-container {
+    display: grid;
+    margin-top: 10px;
+    height: 30px;
+    grid-template-columns: 90% 10%;
+}
+
+.InputBar-input {
+    border-radius: 5px;
+    margin-inline-end: 5px;
+    border: solid 1px #000;
+    padding-inline: 10px;
+}
+
+.InputBar-sendButton {
+    background-color: #0067b8;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px #0067b8;
+}
+
+.InputBar-sendButton-disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.InputBar-sendButton:hover {
+    background-color: #05426d;
+}
+
+.InputBar-sendButton:active {
+    color: #0067b8;
+    background-color: #ffffff;
+}

@@ -1,0 +1,42 @@
+.ChatBoxBody-container {
+    height: 30rem;
+    margin-top: 10px;
+    padding-inline: 10px;
+    overflow-y: auto;
+}
+
+.ChatBoxBody-chat {
+    padding: 10px;
+    margin-block: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.ChatBoxBody-wrapper {
+    display: flex;
+}
+
+.ChatBoxBody-sender {
+    justify-content: right;
+}
+
+.ChatBoxBody-receiver {
+    justify-content: left;
+    text-align: left;
+}
+
+.ChatBoxBody-chat-time {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
+
+.ChatBoxBody-sender div:first-child {
+    background-color: #0067b8;
+    color: #ffffff;
+}
+
+.ChatBoxBody-receiver div:first-child {
+    background-color: #98c7eb;
+}
